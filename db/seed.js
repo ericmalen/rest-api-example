@@ -2,7 +2,7 @@
  * Seed script for initializing the database tables for users and groups.
  * Creates necessary tables if they don't exist, truncates them to remove existing data and sets the appropriate table owners.
  * This was done as part of an assignment, needed to clear the tables to pass the tests.
- * This script is intended to be run once to initialize the database with sample data.
+ * This script is intended to be ran once to initialize or clear the database tables.
  * It utilizes the SQL client provided by the connection module to execute database queries.
  * Function called in server.js on server start up.
  */
