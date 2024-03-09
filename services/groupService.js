@@ -1,3 +1,10 @@
+/**
+ * Service layer responsible for handling user-related business logic.
+ * Interacts with the database service to perform CRUD operations on users.
+ * Unlike controllers, this layer does not handle errors directly with try-catch blocks.
+ * Instead, errors are thrown to be caught and managed by the controllers for proper exception handling.
+ */
+
 const dbService = require("./dbService.js");
 
 const postGroup = async (group) => {
