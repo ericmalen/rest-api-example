@@ -1,0 +1,9 @@
+# Modules
+node_modules
+
+# Env variables
+# For demonstration purposes only, .env below should not be commented out. Everyone working on the project has their own local env variables
+#.env
+
+# Editor directories and files
+.vscode/*
