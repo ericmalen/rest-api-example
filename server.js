@@ -1,6 +1,6 @@
 const express = require("express");
 const router = require("./routes/routes.js");
-const { seed } = require("./db/seed.js");
+//const { seed } = require("./db/seed.js");
 
 // seed().catch((err) => {
 //   console.error(
