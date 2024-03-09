@@ -1,6 +1,6 @@
 /**
  * The controller layer is responsible for processing the requests and calling the appropriate services.
- * No business logic should be in this file, services are in charge of business logic.
+ * No business logic should be in this layer, services are in charge of business logic.
  * Responsible for handling incoming requests related to groups and coordinating appropriate services.
  */
 
